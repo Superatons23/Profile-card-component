@@ -39,6 +39,7 @@ body {
 }
 /*CARD*/
 .card {
+  border-radius: 18px;
   border: 0px;
 }
 .card-body {
@@ -89,6 +90,9 @@ body {
   justify-content: center;
   border-radius: 50%;
   border: 6px solid white;
+}
+.card-img-top {
+  border-radius: 18px;
 }
 .attribution {
   font-size: 12px;
