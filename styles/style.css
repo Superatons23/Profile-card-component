@@ -12,8 +12,8 @@
 body {
   min-height: 100vh;
   background-color: var(--dark-cyan-primary);
-  background-image: url("../images/bg-pattern-top.svg"),
-    url("../images/bg-pattern-bottom.svg");
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
   background-position: right 20vw bottom 50vh, left 20vw top 50vh;
 
