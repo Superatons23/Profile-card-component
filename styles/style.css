@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+:root {
+  /*PRIMARY*/
+  --dark-cyan-primary: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue-primary: hsl(229, 23%, 23%);
+  --dark-grayish-blu-primary: hsl(227, 10%, 46%);
+
+  /*NEUTRAL*/
+  --dark-gray-neutral: hsl(0, 0%, 59%);
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--dark-cyan-primary);
+  background-image: url("/images/bg-pattern-top.svg"),
+    url("/images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: right 20vw bottom 50vh, left 20vw top 50vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 640px) {
+  body {
+    background-position: right 40vw bottom 50vh, left 30vw top 50vh;
+  }
+}
+@media (min-width: 1400px) {
+  body {
+    background-position: right 45vw bottom 50vh, left 40vw top 60vh;
+  }
+}
+/*CARD*/
+.card {
+  border: 0px;
+}
+.card-body {
+  padding: 0px;
+  text-align: center;
+}
+.year {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  margin-left: 10px;
+  color: var(--dark-grayish-blu-primary);
+}
+.card-title {
+  font-size: 1.2rem;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.card-title-city {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--dark-gray-neutral);
+  margin-bottom: 1.5rem;
+}
+.city {
+  border-bottom: 1px solid #e9e9e9;
+}
+.card-text-info {
+  padding: 15px 3rem 10px 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.info-number {
+  font-size: 1.2rem;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.info-desc {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--dark-grayish-blu-primary);
+}
+.card-img-profile {
+  margin-top: -18%;
+  justify-content: center;
+  border-radius: 50%;
+  border: 6px solid white;
+}
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 1rem;
+}
+.attribution a {
+  color: whitesmoke;
+}
