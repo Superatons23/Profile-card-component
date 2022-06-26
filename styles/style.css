@@ -32,6 +32,11 @@ body {
     background-position: right 45vw bottom 50vh, left 40vw top 60vh;
   }
 }
+@media (min-width: 1600px) {
+  body {
+    background-position: right 45vw bottom 50vh, left 50vw top 50vh;
+  }
+}
 /*CARD*/
 .card {
   border: 0px;
